@@ -1,0 +1,104 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.strona {
+    background: lightblue;
+    grid-column: 1/10;
+    grid-row: 1/10;
+    
+    
+    
+}
+
+
+.tytul {
+    background: black;
+    grid-column: 1/20;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.guzik1 {
+    background: lightgreen;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.guzik2 {
+    background: lightgreen;
+    grid-column: 4/7;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.guzik3 {
+    background: lightgreen;
+    grid-column: 7/10;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+.tresc {
+    background: lightblue;
+    grid-column: 1/20;
+    grid-row: 5/20;
+ 
+}
+
+.obrazek {
+    background: ;
+    grid-column: 14/20;
+    grid-row: 9/17;
+}
+
+
+.reklama {
+    background: pink;
+    grid-column: 1/20;
+    grid-row: 18/20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.guzik {
+    position: absolute;
+    left: 800px;
+}
+
+
+.guzik1:hover {
+    background: greenyellow;
+}
+
+.guzik2:hover {
+    background: greenyellow;
+}
+
+.guzik3:hover {
+    background: greenyellow;
+}
+
+.guzik4:hover {
+    background: greenyellow;
+}
+

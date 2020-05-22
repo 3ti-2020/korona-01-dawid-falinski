@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+
+.tytul {
+    background: black;
+    grid-column: 1/10;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.strona {
+    background: lightblue;
+    grid-column: 1/10;
+    grid-row: 1/10;
+}
+
+
+.tresc {
+    grid-column: 1/11;
+    grid-row: 4/11;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.puki {
+    grid-column: 2/4;
+    grid-row: 6/9;
+    background: blueviolet;
+}
+
+.majkut {
+    position: absolute;
+    top:450px;
+    left: 1380px;
+}
+
+.pukistyle {
+    position: absolute;
+    top: 450px;
+    left: 360px;
+    
+}
+
+.xayoo {
+    grid-column: 7/9;
+    grid-row: 6/9;
+    background: violet;
+}
+

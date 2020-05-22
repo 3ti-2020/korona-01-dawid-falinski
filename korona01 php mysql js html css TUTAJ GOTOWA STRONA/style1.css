@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+
+.tytul {
+    background: black;
+    grid-column: 1/10;
+    grid-row: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.strona {
+    background: lightblue;
+    grid-column: 1/10;
+    grid-row: 1/10;
+}
+
+
+.tresc {
+    grid-column: 1/11;
+    grid-row: 4/11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabelka {
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+}
+
